@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디자인스튜디오파란조약돌 login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <div id="wrap"> <!--전체-->
+    <header> <!--header-->
+        <div class="inner1">
+            <h1><a href="#"><span class="blind">디자인스튜디오파란조약돌</span></a></h1>
+            <nav class="Gnb">
+              <h2 class="blind">주메뉴</h2>
+              <ul>
+                  <li><a href="#">파란조약돌이야기</a></li>
+                  <li><a href="#">포트폴리오</a></li>
+                  <li><a href="#">제품구매</a></li>
+                  <li><a href="#">고객센터</a></li>
+                  <li><a href="#">마이페이지</a></li>
+              </ul>
+            </nav>
+              <ul class="Utility">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">장바구니</a></li>
+              </ul>
+        </div>    
+    </header>
+    <main>
+      <section class="S_visual"> <!--S_visual s1-->
+        <div class="inner2">
+          <ul class="subtext">
+            <li class="home"><a href="#"><img src="./images/icon_home.png" alt="메인페이지 바로가기 홈버튼"></a></li>
+            <li>마이페이지</li>
+          </ul>
+          <h3>마이페이지</h3>
+        </div>
+      </section>
+      <section class="Mypage"> <!--Mypage s2-->
+        <div class="inner3">
+          <div class="loginbox">
+            <img src="./images/logo_blue.svg" alt="디자인스튜디오 파란조약돌 로고">
+            <form action="#" name="memberlogin" method="post">
+              <p>
+                <label for="userId" class="blind">아이디 입력</label>
+                <input type="text" id="userId" name="userId" placeholder="아이디" required>
+              </p>
+              <p>
+                <label for="passWord" class="blind">비밀번호 입력</label>
+                <input type="password" id="passWord" name="passWord" placeholder="비밀번호" required>
+              </p>
+              <input type="submit" value="로그인" class="memberlogin">
+            </form>
+            <div class="social">
+              <a href="#">아이디 찾기</a>
+              <a href="#">비밀번호 찾기</a>
+              <a href="#">회원가입</a>
+            </div>
+            <div class="nonmember">
+              <h3>비회원 주문내역 조회</h3>
+              <form action="#" name="nonmemberlogin" method="post">
+                <p> 
+                  <label for="orderId" class="blind">주문자 아이디</label>
+                  <input type="text" id="orderId" name="orderId" placeholder="주문자 아이디" required>
+                </p>
+                <p> 
+                  <label for="orderPw" class="blind">주문조회 비밀번호</label>
+                  <input type="password" id="orderPw" name="orderPw" placeholder="주문자조회 비밀번호" required>
+                </p>
+                <input type="submit" value="비회원 로그인" class="nonmemberlogin">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer> <!--footer-->
+      <div class="inner2">
+        <div class="ftbox">
+        <p class="ftlogo"><img src="./images/logo_wt.svg" alt="디자인스튜디오파란조약돌"></p>
+        <address>
+          <p>43018 대구광역시 달성군 유가읍 테크노상업로 120 M스퀘어플러스 3층 412호</p>
+          <p><span>TEL 053-614-7874</span> <span>FAX 053-616-5112</span> Email pnp5114@naver.com</p>
+          <p><span>대표 김효현</span> <span>사업자명 사회적협동조합 사람과 사람</span> <span>사업자번호 119-82-12179</span> 통신판매업신고번호 2020-대구달성-1033</p>
+        </address>
+       </div>
+        <ul>
+          <li><a href="#">개인정보취급방침</a></li>
+          <li><a href="#">이용약관</a></li>
+        </ul>
+      </div> 
+        <div class="ftbuttom"> 
+            <small>©2022 BLUE PEBBLE design studio, All Rights Reserved</small>
+            <img src="./images/img_escrow.png" alt="에스크로 서비스 안내문구">
+            <span class="uparrow"></span>
+        </div>
+    </footer> 
+</div> 
+</body>
+</html>
